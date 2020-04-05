@@ -1,0 +1,128 @@
+body{
+    font-family: "Montserrat-black";
+}
+h1{
+    font-family: "Montserrat-black";
+    font-size: 3.5rem;
+    font-weight: 1000;
+    
+}
+h2{
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.5;
+    font-size: 2.3rem;
+    font-weight: 900;
+}
+h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    font-weight: 1000;
+}
+#title{
+    background-color: #ff4668;
+    color: #fff;
+    padding-bottom: 4%;
+}
+.dogpho{
+    height: 550px;
+    width: 350px;
+    transform: rotate(25deg);
+    position: absolute;
+    margin-left: 20%;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.btn{
+    margin: 5px 4px;
+} 
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.navbar{
+    padding-left: 0;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+}
+.icon1{
+    height:100px;
+    width: 100px;
+}
+.eeg{
+    padding:5% 8%;
+    text-align: center;
+    margin-bottom: 10%;
+}
+#features{
+    background-color: #fff;
+    position: relative;
+}
+#testimonials{
+    background-color: rgb(207, 96, 96);
+    padding: 8% 20%;
+    font-family: "Montserrat-Black";
+    text-align: center;
+    color: #fff;
+    font-weight: 2000;
+}
+.testimonial-image{
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    margin: 5px 5px;
+}
+.logo{
+  width: 100px;
+  height: 50px;
+  margin: 20px 20px;
+}
+#press{
+    background-color: rgb(207, 96, 96);
+    text-align: center;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 5%;
+}
+.meet{
+    padding-left: 0;
+    padding-right: 0;
+}
+@media (max-width: 770px){
+    .dogpho{
+        position: static;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 40px;
+    }
+}
+#cta{
+    background-color: #ff4668;
+    color: #fff;
+    padding: 4% 15%;
+    line-height: 1.5;
+    text-align: center;
+}
+.btnl{
+    margin: 40px 7px;
+}
+#footer{
+    background-color: #fff;
+    margin: 4% 0 6%;
+    text-align: center;
+}
+.copyright{
+    width: 20px;
+    height: 20px;
+    margin: 0 20px 10px;
+}
